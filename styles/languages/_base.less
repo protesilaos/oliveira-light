@@ -61,7 +61,7 @@
   &.function {
     color: @green;
     &.builtin {
-      color: @base0;
+      color: @base1;
     }
     &.misc {
       color: @yellow;
@@ -69,8 +69,16 @@
   }
   &.type,
   &.class {
-    color: @base0;
+    color: @base00;
   }
+
+  &.constant {
+    color: @cyan;
+  }
+}
+
+.punctuation {
+  color: @base1;
 }
 
 .tag {
