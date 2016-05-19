@@ -1,7 +1,9 @@
 # Oliveira light syntax theme
 
-An experimental low-contrast theme for the Atom text editor. Also available as [a dark theme](https://github.com/protesilaos/oliveira-dark-syntax).
+A colourful, low-contrast syntax highlighting theme based on a 16-colour palette. Comes in light and dark variants.
 
-**Beware**. This project is still in early development.
+Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
 
-*Oliveira* is inspired by [Ethan Schoonover's Solarized](http://ethanschoonover.com/solarized) theme.
+## The palette
+
+[![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)

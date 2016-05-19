@@ -4,50 +4,43 @@
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @base0;
-@syntax-cursor-color: @green;
-@syntax-selection-color: @base2;
-@syntax-selection-flash-color: @base01;
-@syntax-background-color: @base3;
+@syntax-text-color: @lt1;
+@syntax-cursor-color: @gre;
+@syntax-selection-color: @lhl;
+@syntax-selection-flash-color: @dhl;
+@syntax-background-color: @lbg;
 
 // Guide colors
-@syntax-wrap-guide-color: @base2;
-@syntax-indent-guide-color: @base2;
-@syntax-invisible-character-color: @base2;
+@syntax-wrap-guide-color: @lt2;
+@syntax-indent-guide-color: @lt2;
+@syntax-invisible-character-color: @lt2;
 
 // For find and replace markers
-@syntax-result-marker-color: @base01;
-@syntax-result-marker-color-selected: @base2;
+@syntax-result-marker-color: @lt1;
+@syntax-result-marker-color-selected: @dhl;
 
 // Gutter colors
-@syntax-gutter-text-color: @base0;
-@syntax-gutter-text-color-selected: @base01;
-@syntax-gutter-background-color: lighten(@base2, 3%);
-@syntax-gutter-background-color-selected: @base2;
+@syntax-gutter-text-color: @syntax-text-color;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: lighten(@lhl, 3%);
+@syntax-gutter-background-color-selected: @lhl;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-added: @green;
-@syntax-color-renamed: @blue;
-@syntax-color-modified: @yellow;
+@syntax-color-renamed: @blu;
+@syntax-color-added: @gre;
+@syntax-color-modified: @ora;
 @syntax-color-removed: @red;
 
 // For language entity colors
-@syntax-color-variable: @green;
-@syntax-color-constant: @cyan;
-@syntax-color-property: @cyan;
-@syntax-color-value: @orange;
-@syntax-color-function: @green;
-@syntax-color-method: @green;
-@syntax-color-class: @green;
-@syntax-color-keyword: @blue;
-@syntax-color-tag: @green;
-@syntax-color-attribute: @syntax-comment-color;
-@syntax-color-import: @red;
-@syntax-color-snippet: @syntax-color-keyword;
-
-// Custom variables
-// Warning: Don't use in packages
-
-@syntax-comment-color: @base01;
-@syntax-subtle-color: lighten(@base01, 3%);
-@syntax-emphasized-color: darken(@base00, 3%);
+@syntax-color-variable: @blu;
+@syntax-color-constant: @gre;
+@syntax-color-property: @lt1;
+@syntax-color-value: @ora;
+@syntax-color-function: @yel;
+@syntax-color-method: @syntax-color-function;
+@syntax-color-class: @cya;
+@syntax-color-keyword: @vio;
+@syntax-color-tag: vio;
+@syntax-color-attribute: @blu;
+@syntax-color-import: @syntax-color-keyword;
+@syntax-color-snippet: @syntax-color-constant;
