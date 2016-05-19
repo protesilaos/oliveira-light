@@ -6,4 +6,4 @@ Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/o
 
 ## The palette
 
-[![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)
+![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)
