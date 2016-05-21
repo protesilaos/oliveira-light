@@ -6,7 +6,7 @@ A colourful, low-contrast syntax highlighting theme based on a 16-colour palette
 
 Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
 
-Dark variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-syntax)
+Dark variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-dark-syntax)
 
 ## Palette
 
