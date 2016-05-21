@@ -1,4 +1,4 @@
-# Oliveira dark syntax theme
+# Oliveira light syntax theme
 
 **NOTE: Project in early development. Support for more language will be added.**
 
