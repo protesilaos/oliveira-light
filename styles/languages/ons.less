@@ -1,0 +1,26 @@
+.source.coffee, .source.json, .source.yaml {
+  .punctuation {
+    color: @lt2 !important;
+  }
+}
+
+.source.json {
+  .dictionary .value .string {
+    color: @blu;
+  }
+}
+
+.source.yaml {
+  .tag {
+    color: @vio !important;
+  }
+  .string.unquoted {
+    color: @cya;
+  }
+}
+
+.source.coffee {
+  .assignment {
+    color: @gre !important;
+  }
+}

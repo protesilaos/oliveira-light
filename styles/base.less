@@ -1,0 +1,181 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+
+    .line-number {
+      &.cursor-line {
+        color: @syntax-gutter-text-color-selected;
+        font-weight: bold;
+      }
+
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+      }
+    }
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @ora;
+  }
+
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+}
+
+atom-text-editor::shadow {
+    .find-result .region {
+        background-color: fadeout(@syntax-result-marker-color, 45%);
+        border: 1px solid @syntax-result-marker-color;
+    }
+}
+
+atom-text-editor::shadow .highlight.current-result .region,
+atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .region {
+  background-color: fadeout(@syntax-result-marker-color-selected, 45%);
+}
+
+atom-text-editor[mini] .scroll-view,
+:host([mini]) .scroll-view {
+  padding-left: 1px;
+}
+
+// Comments
+.punctuation{
+  color: @lt2;
+}
+
+.comment {
+  color: @lt2;
+  &.punctuation {
+    color: @lt2;
+  }
+}
+
+.meta{
+  color: @lt1;
+}
+
+.none{
+  color: @lt2;
+}
+
+.string{
+  color: @cya;
+}
+
+.keyword {
+  color: @vio;
+  &.operator {
+    color: @lt1;
+  }
+  &.unit {
+    color: @mag;
+  }
+}
+
+body:before {
+  display: none;
+}
+
+.entity {
+  color: @gre;
+
+  &.name.type {
+    color: @lt1;
+  }
+
+  &.other.inherited-class {
+    color: @ora;
+  }
+
+  &.name.tag,
+  &.punctuation.tag {
+    color: @blu;
+  }
+
+  &.other.attribute-name.pseudo-element {
+    color: @yel;
+  }
+
+  &.punctuation.definition {
+    color: @mag;
+  }
+
+  &.name.tag.namespace,
+  &.other.attribute-name.namespace {
+    color: @vio;
+  }
+}
+
+.constant{
+  color: @cya;
+}
+
+.storage{
+  color: @gre;
+}
+
+.variable{
+  color: @blu;
+  &.interpolation {
+    font-weight: bold;
+  }
+}
+
+.support:after {
+  color: @lt1;
+
+  &.function {
+    color: @ora;
+  }
+
+  &.constant {
+    color: @mag;
+  }
+
+  &.type.property-name.css {
+    color: @lt1;
+  }
+}
+
+.bracket-matcher .region {
+  border-bottom: 1px solid @red;
+  margin-top: -1px;
+  opacity: .7;
+}
+
+.entity {
+  &.name.tag.namespace,
+  &.other.attribute-name.namespace {
+    color: @ora;
+  }
+}

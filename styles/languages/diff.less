@@ -1,0 +1,28 @@
+// Syntax coloring for diff
+
+.source .meta.diff {
+  &.header {
+    &.from-file {
+      .oliveira-changed;
+    }
+    &.to-file {
+      .oliveira-renamed;
+    }
+  }
+  &.range {
+    color: @lt2 !important;
+  }
+  &.line-number {
+    color: @lt2 !important;
+    font-weight: bold;
+  }
+}
+
+.source .diff{
+  &.deleted {
+    .oliveira-removed;
+  }
+  &.inserted {
+    .oliveira-added;
+  }
+}

@@ -1,0 +1,32 @@
+// Git config
+.git-config {
+  .constant {
+    color: @blu;
+  }
+  .boolean {
+    color: @vio;
+  }
+  .name {
+    &.section {
+      color: @gre;
+    }
+    &.subsection {
+      color: @yel;
+    }
+  }
+}
+
+// Folders and files in the tree view
+.list-tree, .tree-view-directory{
+  .status-modified {
+    color: @syntax-color-modified !important;
+  }
+  .status-added {
+    color: @syntax-color-added !important;
+  }
+}
+
+.list-tree li.list-nested-item.selected.status-modified > .list-item,
+.list-tree li.list-nested-item.status-modified > .list-item {
+  color: @syntax-color-modified !important;
+}
