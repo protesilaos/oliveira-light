@@ -7,6 +7,7 @@
 @syntax-text-color: @lt1;
 @syntax-cursor-color: @gre;
 @syntax-selection-color: fadeout(@lt1, 90%);
+@syntax-selection-flash-color: @syntax-cursor-color;
 @syntax-background-color: @lbg;
 @syntax-cursor-line: fadeout(@lt1, 97%);
 
@@ -30,3 +31,13 @@
 @syntax-color-added: @gre;
 @syntax-color-modified: @ora;
 @syntax-color-removed: @red;
+
+// Custom Syntax Variables -----------------------------------
+// Don't use in packages
+
+@syntax-cursor-line: hsla(@syntax-hue, 100%,  80%, .04); // needs to be semi-transparent to show serach results
+
+@syntax-deprecated-fg: darken(@syntax-color-modified, 50%);
+@syntax-deprecated-bg: @syntax-color-modified;
+@syntax-illegal-fg:    white;
+@syntax-illegal-bg:    @syntax-color-removed;
