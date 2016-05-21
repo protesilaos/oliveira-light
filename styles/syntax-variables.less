@@ -6,21 +6,21 @@
 // General colors
 @syntax-text-color: @lt1;
 @syntax-cursor-color: @gre;
-@syntax-selection-color: @lhl;
-@syntax-selection-flash-color: @dhl;
+@syntax-selection-color: fadeout(@lt1, 90%);
 @syntax-background-color: @lbg;
+@syntax-cursor-line: fadeout(@lt1, 97%);
 
 // Guide colors
-@syntax-wrap-guide-color: @lt2;
-@syntax-indent-guide-color: @lt2;
-@syntax-invisible-character-color: @lt2;
+@syntax-wrap-guide-color: lighten(@lt2, 3%);
+@syntax-indent-guide-color: lighten(@lt2, 3%);
+@syntax-invisible-character-color: lighten(@lt2, 3%);
 
 // For find and replace markers
-@syntax-result-marker-color: @lt1;
-@syntax-result-marker-color-selected: @dhl;
+@syntax-result-marker-color: fadeout(@gre, 40%);
+@syntax-result-marker-color-selected: fadeout(@vio, 40%);
 
 // Gutter colors
-@syntax-gutter-text-color: @syntax-text-color;
+@syntax-gutter-text-color: @lt2;
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
 @syntax-gutter-background-color: lighten(@lhl, 3%);
 @syntax-gutter-background-color-selected: @lhl;
@@ -30,17 +30,3 @@
 @syntax-color-added: @gre;
 @syntax-color-modified: @ora;
 @syntax-color-removed: @red;
-
-// For language entity colors
-@syntax-color-variable: @blu;
-@syntax-color-constant: @gre;
-@syntax-color-property: @lt1;
-@syntax-color-value: @ora;
-@syntax-color-function: @yel;
-@syntax-color-method: @syntax-color-function;
-@syntax-color-class: @cya;
-@syntax-color-keyword: @vio;
-@syntax-color-tag: @vio;
-@syntax-color-attribute: @blu;
-@syntax-color-import: @syntax-color-keyword;
-@syntax-color-snippet: @syntax-color-constant;
