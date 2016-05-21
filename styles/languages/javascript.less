@@ -1,0 +1,90 @@
+.source.js {
+  .constant {
+    color: @vio;
+  }
+
+  .comma {
+    color: @syntax-text-color;
+  }
+
+  .support.class {
+    color: @vio;
+  }
+
+  .entity.name.type {
+    color: @yel;
+  }
+  .entity.name {
+    color: @syntax-text-color;
+  }
+
+  .storage.type.function {
+    color: @ora;
+  }
+
+  .meta.brace {
+    color: @syntax-text-color;
+  }
+
+  .keyword {
+    color: @syntax-text-color;
+  }
+  .keyword.operator.new {
+    color: @vio;
+  }
+  .keyword.control {
+    color: @vio;
+  }
+  .keyword.control.regexp {
+    color: @cya;
+  }
+
+  .variable {
+    color: @gre;
+  }
+  .variable.parameter {
+    color: @syntax-text-color;
+  }
+
+  .regexp {
+    color: @cya;
+  }
+
+  .support.function {
+    color: @mag;
+  }
+  .support.constant {
+    color: @syntax-text-color;
+  }
+
+  .constant.numeric {
+    color: @syntax-text-color;
+  }
+
+  .punctuation.terminator.statement {
+    color: @syntax-text-color;
+  }
+
+  .meta.delimiter.method.period {
+    color: @syntax-text-color;
+  }
+  .meta.brace.square {
+    color: @gre;
+  }
+  .meta.brace.curly {
+    color: @gre;
+  }
+  .string.quoted.template {
+    .embedded.source {
+      color: @syntax-text-color;
+      & > .embedded.punctuation {
+        color: @red;
+      }
+    }
+  }
+}
+.source.js.jsx {
+  .entity.name.tag {
+    color: @gre;
+  }
+}
