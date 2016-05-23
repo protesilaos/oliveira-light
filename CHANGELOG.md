@@ -12,3 +12,6 @@
 - Mixed HTML fixes.
 - Guide now uses the correct value: [theme variant] background highlight.
 - Corrections for consistency in `ruby.less`.
+
+## 0.4.1
+- Corrections for consistency in `javascript.less`.

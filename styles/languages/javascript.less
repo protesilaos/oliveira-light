@@ -1,6 +1,6 @@
 .source.js {
   .constant {
-    color: @vio;
+    color: @gre;
   }
 
   .comma {
@@ -8,7 +8,7 @@
   }
 
   .support.class {
-    color: @vio;
+    color: @gre;
   }
 
   .entity.name.type {
@@ -19,7 +19,7 @@
   }
 
   .storage.type.function {
-    color: @ora;
+    color: @blu;
   }
 
   .meta.brace {
@@ -30,17 +30,21 @@
     color: @syntax-text-color;
   }
   .keyword.operator.new {
-    color: @vio;
+    color: @gre;
   }
   .keyword.control {
-    color: @vio;
+    color: @gre;
   }
   .keyword.control.regexp {
     color: @cya;
   }
 
   .variable {
-    color: @gre;
+    color: @vio;
+
+    &.other.property {
+      color: @syntax-text-color;
+    }
   }
   .variable.parameter {
     color: @syntax-text-color;
@@ -54,11 +58,11 @@
     color: @mag;
   }
   .support.constant {
-    color: @syntax-text-color;
+    color: @syntax-comment-color;
   }
 
   .constant.numeric {
-    color: @syntax-text-color;
+    color: @ora;
   }
 
   .punctuation.terminator.statement {
@@ -69,10 +73,10 @@
     color: @syntax-text-color;
   }
   .meta.brace.square {
-    color: @gre;
+    color: @vio;
   }
   .meta.brace.curly {
-    color: @gre;
+    color: @vio;
   }
   .string.quoted.template {
     .embedded.source {
@@ -85,6 +89,6 @@
 }
 .source.js.jsx {
   .entity.name.tag {
-    color: @gre;
+    color: @vio;
   }
 }
