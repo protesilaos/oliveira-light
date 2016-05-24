@@ -1,4 +1,4 @@
-## 0.1.0 - First Release
+## 0.1.0
 - Created *Oliveira*.
 
 ## 0.2.0
@@ -6,7 +6,7 @@
 - Markdown variants.
 
 ## 0.3.0
-- Javascript and Ruby support.
+- JavaScript and Ruby support.
 
 ## 0.4.0
 - Mixed HTML fixes.
@@ -15,3 +15,6 @@
 
 ## 0.4.1
 - Corrections for consistency in `javascript.less`.
+
+## 0.5.0
+- Support for CoffeeScript and JSON

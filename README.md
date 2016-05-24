@@ -32,10 +32,16 @@ Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/them
 
 ## Languages
 
+Oliveira is tested with the following:
+
 - HTML
 - CSS
+- SCSS
+- Less
 - Markdown
-- Javascript
+- JavaScript
+- CoffeeScript
+- JSON
 - Ruby
 
 **NOTE: Project in development. More languages will be added.**

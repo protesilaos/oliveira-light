@@ -1,0 +1,55 @@
+.source.coffee {
+  .support.class {
+    color: @gre;
+  }
+
+  .variable,
+  .entity.name.function,
+  .entity.name.class {
+    color: @blu;
+  }
+  .variable.parameter.function {
+    color: @syntax-text-color;
+  }
+  .variable.other.readwrite {
+    color: @gre;
+  }
+
+  .storage.type.function {
+    color: @gre;
+  }
+
+  .entity.name {
+    color: @syntax-text-color;
+  }
+
+  .meta.brace {
+    &.round,
+    &.square {
+      color: @syntax-text-color;
+    }
+  }
+  .meta.delimiter {
+    color: @syntax-text-color;
+  }
+
+  .storage.type.class {
+    color: @gre;
+  }
+
+  .punctuation.terminator {
+    color: @syntax-text-color;
+  }
+
+  .punctuation.section.embedded {
+    color: @red;
+  }
+
+  .constant.numeric {
+    color: @vio;
+  }
+
+  .constant.language.boolean {
+    color: @yel;
+  }
+}
