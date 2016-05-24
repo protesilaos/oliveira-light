@@ -18,3 +18,6 @@
 
 ## 0.5.0
 - Support for CoffeeScript and JSON
+
+## 0.5.1
+- Better YAML support
