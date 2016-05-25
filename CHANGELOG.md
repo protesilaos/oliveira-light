@@ -26,3 +26,6 @@
 - Switch variant-specific base values with syntax variables (e.g. `@dt2` or `@lt2` with `@syntax-comment-color`).
 - Add support for PHP and Python.
 - Improvements to `gfm.less`.
+
+## 0.6.1
+- Fix selector punctuation in SCSS.
