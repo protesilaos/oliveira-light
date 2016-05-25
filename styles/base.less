@@ -70,22 +70,22 @@ atom-text-editor[mini] .scroll-view,
 
 // Comments
 .punctuation{
-  color: @lt2;
+  color: @syntax-comment-color;
 }
 
 .comment {
-  color: @lt2;
+  color: @syntax-comment-color;
   &.punctuation {
-    color: @lt2;
+    color: @syntax-comment-color;
   }
 }
 
 .meta{
-  color: @lt1;
+  color: @syntax-text-color;
 }
 
 .none{
-  color: @lt2;
+  color: @syntax-comment-color;
 }
 
 .string{
@@ -95,7 +95,7 @@ atom-text-editor[mini] .scroll-view,
 .keyword {
   color: @vio;
   &.operator {
-    color: @lt1;
+    color: @syntax-text-color;
   }
   &.unit {
     color: @mag;
@@ -110,7 +110,7 @@ body:before {
   color: @gre;
 
   &.name.type {
-    color: @lt1;
+    color: @syntax-text-color;
   }
 
   &.other.inherited-class {
@@ -152,7 +152,7 @@ body:before {
 }
 
 .support:after {
-  color: @lt1;
+  color: @syntax-text-color;
 
   &.function {
     color: @ora;
@@ -163,7 +163,7 @@ body:before {
   }
 
   &.type.property-name.css {
-    color: @lt1;
+    color: @syntax-text-color;
   }
 }
 

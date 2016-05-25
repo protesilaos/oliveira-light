@@ -2,94 +2,83 @@
 
   -webkit-font-smoothing: auto;
 
-  // General thingies
   .markup {
-    // Typo
     &.italic {
       font-style: italic;
-      color: @lt2;
+      color: @syntax-comment-color;
     }
     &.bold {
       font-weight: bold;
-      color: @lt2;
+      color: @syntax-comment-color;
     }
 
-    // Headings
     &.heading {
-      color: @lt1;
+      color: @syntax-text-color;
       font-weight: bold;
       &.space, &.marker {
         font-weight: normal;
       }
       &.marker {
-        color: @gre;
+        color: @blu;
       }
     }
   }
 
-  // Rules
   .hr {
-    font-weight: bold;
-    color: @lt2;
+    font-weight: normal;
+    color: @syntax-comment-color;
   }
 
-  // Lists, etc.
   .list {
-    color: @yel;
+    color: @mag;
   }
 
-  // Quotes
   .quote {
-    color: @lt2;
+    color: @syntax-comment-color;
+    font-style: italic;
     &.support {
-      font-weight: bold;
-      color: @cya;
+      color: @vio;
     }
   }
 
-  // References and mentions
   .mention {
-    color: @lt2;
+    color: @syntax-comment-color;
   }
   .username {
     color: @blu;
   }
 
-  // Raw code
   .raw {
-    color: @lt2;
-    border-radius: 3px;
+    color: @syntax-comment-color;
   }
 
-  // Links
   .link {
     .entity {
-      color: @vio;
+      color: @gre;
     }
     .underline {
-      color: @mag;
+      color: @cya;
       text-decoration: none;
     }
     .punctuation {
-      color: @lt2;
+      color: @syntax-comment-color;
       text-decoration: none !important;
     }
   }
 
-  // Tables
   .table.gfm {
     .border {
-      color: @lt2;
+      color: @syntax-comment-color;
       font-weight: bold;
       &.outer {
-        color: @lt2;
+        color: @syntax-comment-color;
       }
       &.header {
-        color: @lt2;
+        color: @syntax-comment-color;
       }
     }
     .alignment {
-      color: @lt2;
+      color: @syntax-comment-color;
     }
   }
 

@@ -17,7 +17,12 @@
 - Corrections for consistency in `javascript.less`.
 
 ## 0.5.0
-- Support for CoffeeScript and JSON
+- Support for CoffeeScript and JSON.
 
 ## 0.5.1
-- Better YAML support
+- Better YAML support.
+
+## 0.6.0
+- Switch variant-specific base values with syntax variables (e.g. `@dt2` or `@lt2` with `@syntax-comment-color`).
+- Add support for PHP and Python.
+- Improvements to `gfm.less`.

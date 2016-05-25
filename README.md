@@ -43,5 +43,8 @@ Oliveira is tested with the following:
 - CoffeeScript
 - JSON
 - Ruby
+- YAML
+- Python
+- PHP
 
 **NOTE: Project in development. More languages will be added.**

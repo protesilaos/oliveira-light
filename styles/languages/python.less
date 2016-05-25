@@ -1,0 +1,109 @@
+.source.python {
+  .entity {
+    color: @syntax-text-color;
+
+    &.name {
+      color: @gre;
+    }
+    &.other {
+      color: @gre;
+    }
+  }
+
+  .function {
+    color: @vio;
+
+    &.magic {
+      color: @vio;
+    }
+  }
+
+  .string {
+    color: @cya;
+
+    &.quoted.single.block {
+      color: @syntax-text-color;
+    }
+  }
+
+  .punctuation.string {
+    color: @cya;
+  }
+  .keyword {
+    &.operator {
+      color: @syntax-text-color;
+      &.quantifier {
+        color: @mag;
+      }
+      &.logical {
+        color: @gre;
+      }
+    }
+    &.control.import {
+      color: @ora;
+    }
+    &.other {
+      color: @gre;
+    }
+  }
+  .constant {
+    &.numeric {
+      color: @mag;
+    }
+    &.language {
+      color: @blu;
+    }
+    &.character {
+      color: @mag;
+    }
+    &.other {
+      color: @red;
+    }
+  }
+
+  .entity.name.type.class {
+    color: @blu;
+  }
+  .variable {
+    color: @syntax-text-color;
+  }
+  .support {
+    &.function.builtin {
+      color: @blu;
+    }
+    &.type {
+      &.exception.python {
+        color: @yel;
+      }
+      &.python {
+        color: @gre;
+      }
+    }
+  }
+  .storage.type.string {
+    color: @mag;
+  }
+
+  .storage.type.class {
+    color: @vio;
+    &.todo {
+      color: @cya;
+    }
+  }
+
+  .storage.type.function {
+    color: @blu;
+  }
+
+  .punctuation.definition.parameters {
+    color: @syntax-text-color;
+  }
+
+  .punctuation.section.function.begin {
+    color: @syntax-text-color;
+  }
+
+  .punctuation.separator.parameters {
+    color: @syntax-text-color;
+  }
+}
