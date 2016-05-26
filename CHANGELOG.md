@@ -29,3 +29,6 @@
 
 ## 0.6.1
 - Fix selector punctuation in SCSS.
+
+## 0.6.2
+- Fix CSS pseudo element and constant property.

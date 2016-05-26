@@ -12,24 +12,6 @@ Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/them
 
 ![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)
 
-## Screenshots light/dark
-
-![oliveira light html](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/lighthtml.png)
-
-![oliveira dark html](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/darkhtml.png)
-
-![oliveira light css](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/lightcss.png)
-
-![oliveira dark css](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/darkcss.png)
-
-![oliveira light js](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/lightjs.png)
-
-![oliveira dark js](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/darkjs.png)
-
-![oliveira light rb](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/lightrb.png)
-
-![oliveira dark rb](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/darkrb.png)
-
 ## Languages
 
 Oliveira is tested with the following:
@@ -47,4 +29,4 @@ Oliveira is tested with the following:
 - Python
 - PHP
 
-**NOTE: Project in development. More languages will be added.**
+**Project in development. More languages will be added.**
