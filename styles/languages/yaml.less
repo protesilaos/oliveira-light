@@ -1,24 +1,20 @@
-.source.yaml {
+// YAML
+
+.yaml {
   .tag {
-    color: @gre;
+    .color-1();
   }
-  .string{
-    color: @syntax-text-color;
-
-    &.unquoted {
-      color: @syntax-text-color;
-    }
+  .string {
+    .text-1();
   }
-
-  .punctuation {
-    color: @syntax-comment-color;
-
-    &.definition {
-      color: @mag;
-    }
-  }
-
   .constant {
-    color: @vio;
+    .color-3();
+  }
+  .punctuation {
+    .text-2();
+
+    &.string {
+      .support-2();
+    }
   }
 }

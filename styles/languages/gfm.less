@@ -1,88 +1,61 @@
-.source.gfm {
+// GitHub Flavoured Markdown
 
-  -webkit-font-smoothing: auto;
-
-  .markup {
-    &.italic {
-      font-style: italic;
-      color: @syntax-comment-color;
-    }
-    &.bold {
-      font-weight: bold;
-      color: @syntax-comment-color;
-    }
-
-    &.heading {
-      color: @syntax-text-color;
-      font-weight: bold;
-      &.space, &.marker {
-        font-weight: normal;
-      }
-      &.marker {
-        color: @blu;
-      }
-    }
-  }
-
-  .hr {
-    font-weight: normal;
-    color: @syntax-comment-color;
-  }
-
-  .list {
-    color: @mag;
-  }
-
-  .quote {
-    color: @syntax-comment-color;
-    font-style: italic;
-    &.support {
-      color: @vio;
-    }
-  }
-
-  .mention {
-    color: @syntax-comment-color;
-  }
-  .username {
-    color: @blu;
-  }
-
-  .raw {
-    color: @syntax-comment-color;
-  }
+.gfm {
+  .text-1();
+  .punctuation-mixin();
 
   .link {
-    .entity {
-      color: @gre;
+    .color-2();
+  }
+
+  &.markup {
+    .text-2();
+
+    &.bold   { .bold(); }
+    &.italic { .italic(); }
+    &.strike {
+      .text-2();
+      text-decoration: line-through;
     }
-    .underline {
-      color: @cya;
-      text-decoration: none;
+
+    &.raw,
+    &.raw .support,
+    &.code .support {
+      .text-2();
     }
-    .punctuation {
-      color: @syntax-comment-color;
-      text-decoration: none !important;
+
+    &.underline.link {
+      .color-3();
     }
   }
 
-  .table.gfm {
-    .border {
-      color: @syntax-comment-color;
-      font-weight: bold;
-      &.outer {
-        color: @syntax-comment-color;
-      }
-      &.header {
-        color: @syntax-comment-color;
-      }
-    }
-    .alignment {
-      color: @syntax-comment-color;
+  &.comment  {
+    .text-2();
+    &.quote {
+      .text-2();
     }
   }
 
+  &.table {
+    .text-1();
+
+    .border,
+    .pipe {
+      .text-2();
+    }
+  }
+
+  &.variable,
+  &.entity {
+    .color-2();
+  }
+  &.support  { .support-1(); }
+
+  &.heading {
+    .color-1();
+
+    &.marker {
+      .accent-2();
+    }
+  }
 }
-
-// Syntax for critic markup
-@import "criticmark.less";

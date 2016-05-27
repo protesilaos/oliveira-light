@@ -1,14 +1,20 @@
-.source.css {
-  .punctuation {
-    &.separator,
-    &.terminator,
-    &.property-list.begin,
-    &.property-list.end {
-      color: @syntax-text-color;
+// CSS
+
+.css {
+  &.source {
+    .text-2();
+  }
+  &.at-rule {
+    .color-1();
+    .keyword.punctuation {
+      color: inherit;
     }
   }
-
-  .support.constant.property-value {
-    color: @syntax-comment-color;
+  &.attribute-name {
+    &.id,
+    &.class,
+    &.parent-selector {
+      .color-1();
+    }
   }
 }

@@ -1,94 +1,17 @@
-.source.js {
-  .constant {
-    color: @gre;
+.js {
+  &.source {
+    .color-2();
+    .punctuation-mixin();
   }
-
-  .comma {
-    color: @syntax-text-color;
-  }
-
-  .support.class {
-    color: @gre;
-  }
-
-  .entity.name.type {
-    color: @yel;
-  }
-  .entity.name {
-    color: @syntax-text-color;
-  }
-
-  .storage.type.function {
-    color: @blu;
-  }
-
-  .meta.brace {
-    color: @syntax-text-color;
-  }
-
-  .keyword {
-    color: @syntax-text-color;
-  }
-  .keyword.operator.new {
-    color: @gre;
-  }
-  .keyword.control {
-    color: @gre;
-  }
-  .keyword.control.regexp {
-    color: @cya;
-  }
-
   .variable {
-    color: @vio;
+    .color-1();
 
     &.other.property {
-      color: @syntax-text-color;
+      .text-1();
     }
   }
+  
   .variable.parameter {
-    color: @syntax-text-color;
-  }
-
-  .regexp {
-    color: @cya;
-  }
-
-  .support.function {
-    color: @mag;
-  }
-  .support.constant {
-    color: @syntax-comment-color;
-  }
-
-  .constant.numeric {
-    color: @ora;
-  }
-
-  .punctuation.terminator.statement {
-    color: @syntax-text-color;
-  }
-
-  .meta.delimiter.method.period {
-    color: @syntax-text-color;
-  }
-  .meta.brace.square {
-    color: @vio;
-  }
-  .meta.brace.curly {
-    color: @vio;
-  }
-  .string.quoted.template {
-    .embedded.source {
-      color: @syntax-text-color;
-      & > .embedded.punctuation {
-        color: @red;
-      }
-    }
-  }
-}
-.source.js.jsx {
-  .entity.name.tag {
-    color: @vio;
+    .text-1();
   }
 }
