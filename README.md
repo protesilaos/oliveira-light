@@ -26,6 +26,6 @@ Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/them
 
 ## Acknowledgement
 
-As of `v0.7.0` the actual code structure is adapted from Simurai's excellent [DuoTone syntax theme](https://github.com/simurai/duotone-syntax). Contrary to DuoTone, Oliveira uses a 16-colour palette hence the need for adjustments.
+As of `v1.0.0` the actual code structure is adapted from Simurai's excellent [DuoTone syntax theme](https://github.com/simurai/duotone-syntax). Contrary to DuoTone, Oliveira uses a 16-colour palette hence the need for adjustments.
 
 Simurai's work is protected by the inclusion of the original MIT License (`license-original.md`).
