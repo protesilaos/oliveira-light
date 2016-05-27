@@ -18,25 +18,5 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0"
-  },
-  "readme": "# Oliveira syntax theme (light variant)\n\nA colourful, low-contrast syntax theme based on a 16-colour palette. Comes in light and light variants.\n\nProject page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)\n\nLight variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-syntax)\n\nlight variant: [https://atom.io/themes/oliveira-light-syntax](https://atom.io/themes/oliveira-light-syntax)\n\n## Palette\n\n![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)\n\n## Languages\n\nOliveira is tested with the following:\n\n- HTML\n- CSS\n- SCSS\n- Less\n- Markdown\n- JavaScript\n- CoffeeScript\n- JSON\n- Ruby\n- YAML\n- Python\n- PHP\n\n**Project in development. More languages will be added.**\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/protesilaos/oliveira-light-syntax/issues"
-  },
-  "homepage": "https://github.com/protesilaos/oliveira-light-syntax#readme",
-  "_id": "oliveira-light-syntax@0.6.3",
-  "_shasum": "6a8bf11cc165a89d9b12f4beeab9203a4e7aee38",
-  "_resolved": "file:../d-116426-2470-69aznj/package.tgz",
-  "_from": "../d-116426-2470-69aznj/package.tgz",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
   }
 }

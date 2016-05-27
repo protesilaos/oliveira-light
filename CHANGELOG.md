@@ -33,5 +33,5 @@
 ## 0.6.2
 - Fix CSS pseudo element and constant property.
 
-## 0.7.0
+## 1.0.0
 - Code rebase, adapting Simurai's DuoTone structure.
