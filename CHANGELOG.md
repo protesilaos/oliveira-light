@@ -35,3 +35,9 @@
 
 ## 1.0.0
 - Code rebase, adapting Simurai's DuoTone structure.
+
+## 1.1.0
+- Fix string punctuation.
+- YAML quoted strings now distinct from unquoted.
+- HTML quoted strings now distinct from text.
+- GFM lists now distinct from other variables.
