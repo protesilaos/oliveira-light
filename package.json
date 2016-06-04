@@ -2,10 +2,9 @@
   "name": "oliveira-syntax",
   "theme": "syntax",
   "version": "1.2.0",
-  "description": "Colourful, low-contrast theme based on a 16-colour palette.",
+  "description": "Colourful, low-to-medium-contrast theme.",
   "keywords": [
     "syntax",
-    "theme",
     "light",
     "green",
     "violet",

@@ -1,6 +1,6 @@
 # Oliveira syntax theme (light variant)
 
-A colourful, low-contrast syntax theme based on a 16-colour palette. Green is the most prevalent accent, followed by violet, and blue.
+A colourful, low-to-medium-contrast syntax theme. Green is the most prevalent accent, followed by violet, and blue.
 
 Oliveira comes in light and dark variants.
 

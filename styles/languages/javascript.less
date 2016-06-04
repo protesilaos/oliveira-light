@@ -1,17 +1,46 @@
 .js {
   &.source {
-    .color-2();
+    .text-1();
     .punctuation-mixin();
   }
+
+  .constant {
+    .color-3();
+  }
+
   .variable {
     .color-1();
 
-    &.other.property {
-      .text-1();
+    &.other {
+      .support-1();
+    }
+
+    &.parameter {
+      .color-1;
     }
   }
-  
-  .variable.parameter {
-    .text-1();
+
+  .meta.arguments {
+    .color-1();
+  }
+
+  .storage.type {
+    .color-2();
+  }
+
+  .keyword {
+    .color-1();
+
+    &.operator {
+      .support-1();
+    }
+  }
+
+  .string {
+    .support-1();
+
+    &.punctuation.definition {
+      .support-1();
+    }
   }
 }
