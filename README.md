@@ -1,8 +1,14 @@
 # Oliveira syntax theme (light variant)
 
-A colourful, low-to-medium-contrast syntax theme. Green is the most prevalent accent, followed by violet, and blue.
+Low-to-medium contrast. Green is the most prevalent accent, followed by violet, and blue.
 
 Oliveira comes in light and dark variants.
+
+Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
+
+Light variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-syntax)
+
+Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/themes/oliveira-dark-syntax)
 
 ## Screenshots
 
@@ -13,16 +19,6 @@ Oliveira comes in light and dark variants.
 ## Palette
 
 ![oliveira colour scheme](https://raw.githubusercontent.com/protesilaos/oliveira/master/img/oliveira_colours.png)
-
-## More info
-
-Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
-
-Light variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-syntax)
-
-Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/themes/oliveira-dark-syntax)
-
-*Project in development. More languages will be added or otherwise refined.*
 
 ## Acknowledgement
 
