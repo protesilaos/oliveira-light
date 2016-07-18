@@ -63,3 +63,18 @@
 
 ## 1.6.0
 - Rewrite `coffee.less` for visual consistency with JavaScript.
+
+## 2.0.0
+- Update palette in `colors.less`
+  - @dbg from #1A2217 to #252922
+  - @dhl from #2A3227 to #353932
+  - @dt2 from #6A7167 to #757972
+  - @dt1 from #8A9187 to #959992
+  - @lbg from #F7F9F4 to #F1F3EB
+  - @lhl from #E7E9E4 to #E1E3DB
+  - @lt2 from #778974 to #91938B
+  - @lt1 from #374934 to #51534B
+  - @gre from #477E44 to #5CA15A
+  - @blu from #107595 to #1A8DAC
+  - @cya from #5CA090 to #5CAA9A
+  - @vio from #6C85B7 to #7C85B7
