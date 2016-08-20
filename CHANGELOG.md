@@ -78,3 +78,6 @@
   - @blu from #107595 to #1A8DAC
   - @cya from #5CA090 to #5CAA9A
   - @vio from #6C85B7 to #7C85B7
+
+## 2.1.0
+- Code rebase. Improvements to Markdown, and JavaScript.

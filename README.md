@@ -1,19 +1,27 @@
 # Oliveira syntax theme (light variant)
 
-Low-to-medium contrast theme. Green is the most prevalent accent, followed by violet, blue, cyan, and magenta.
+Medium contrast theme. The most prevalent colours are variants of green, violet, blue, cyan, and magenta.
 
-Oliveira comes in light and dark variants.
+*Oliveira* comes in standalone light and dark variants (see further info below).
 
-Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
-
-Light variant: [https://atom.io/themes/oliveira-syntax](https://atom.io/themes/oliveira-syntax)
-
-Dark variant: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/themes/oliveira-dark-syntax)
-
-## Screenshots
-
-![oliveira dark screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_dark_sample.png)
+## Screenshot
 
 ![oliveira light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_sample.png)
 
-*The font in the screenshots is Source Code Pro*.
+*The font in the screenshot is [Hack](https://github.com/chrissimpkins/Hack), set at 14px*.  
+*Demo code by http://codemirror.net/mode/javascript/index.html*  
+*The UI theme is https://atom.io/themes/atom-material-ui*.
+
+## Download
+
+Search for `oliveira-syntax` in Settings > Install > Themes. Or install it directly using the command:
+
+```shell
+apm install oliveira-syntax
+```
+
+## Further information
+
+Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
+
+Oliveira dark version: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/themes/oliveira-dark-syntax)
