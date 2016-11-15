@@ -81,3 +81,8 @@
 
 ## 2.1.0
 - Code rebase. Improvements to Markdown, and JavaScript.
+
+## 2.2.0
+- Refinements to JavaScript.
+- Refinements to Markdown.
+- Minor improvements to editor styles.

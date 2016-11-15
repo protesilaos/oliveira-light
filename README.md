@@ -8,9 +8,9 @@ Medium contrast theme. The most prevalent colours are variants of green, violet,
 
 ![oliveira light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_sample.png)
 
-*The font in the screenshot is [Hack](https://github.com/chrissimpkins/Hack), set at 14px*.  
-*Demo code by http://codemirror.net/mode/javascript/index.html*  
-*The UI theme is https://atom.io/themes/atom-material-ui*.
+*The font is [Iosevka term slab](https://github.com/be5invis/Iosevka)*.  
+*JavaScript demo is source code of [prismjs](http://prismjs.com/)*  
+*The UI is my experimental fork of the default One Dark*.
 
 ## Download
 
