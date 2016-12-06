@@ -22,6 +22,6 @@ apm install oliveira-syntax
 
 ## Further information
 
-Project page: [http://www.protesilaos.com/oliveira](http://www.protesilaos.com/oliveira)
+Project page: [https://protesilaos.com/oliveira](https://protesilaos.com/oliveira)
 
 Oliveira dark version: [https://atom.io/themes/oliveira-dark-syntax](https://atom.io/themes/oliveira-dark-syntax)
