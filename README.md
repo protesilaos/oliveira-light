@@ -4,13 +4,18 @@ Medium contrast theme. The most prevalent colours are variants of green, violet,
 
 *Oliveira* comes in standalone light and dark variants (see further info below).
 
-## Screenshot
+## Screenshots
 
-![oliveira light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_sample.png)
+![oliveira light screenshot html](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_html.png)
 
-*The font is [Iosevka term slab](https://github.com/be5invis/Iosevka)*.  
-*JavaScript demo is source code of [prismjs](http://prismjs.com/)*  
-*The UI is my experimental fork of the default One Dark*.
+![oliveira light screenshot scss](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_scss.png)
+
+![oliveira light screenshot js](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_js.png)
+
+![oliveira light screenshot md](https://raw.githubusercontent.com/protesilaos/prot16/master/oliveira/img/oliveira_light_md.png)
+
+*The font is [Iosevka term](https://github.com/be5invis/Iosevka)*.  
+*The UI is [Atom Material](https://github.com/atom-material/atom-material-ui)*.
 
 ## Download
 
